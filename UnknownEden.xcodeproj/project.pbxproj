@@ -6,17 +6,20 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FC62751D306B21990064397F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC627519306B21990064397F /* Assets.xcassets */; };
+		FC62751E306B21990064397F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC62751A306B21990064397F /* ContentView.swift */; };
+		FC62751F306B21990064397F /* UnknownEdenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC62751B306B21990064397F /* UnknownEdenApp.swift */; };
+		FC627527306B22370064397F /* WorldScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC627526306B22370064397F /* WorldScene.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		FC62750B306B213F0064397F /* UnknownEden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnknownEden.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC627519306B21990064397F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC62751A306B21990064397F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC62751B306B21990064397F /* UnknownEdenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnknownEdenApp.swift; sourceTree = "<group>"; };
+		FC627526306B22370064397F /* WorldScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		FC62750D306B213F0064397F /* UnknownEden */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = UnknownEden;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FC627508306B213F0064397F /* Frameworks */ = {
@@ -30,7 +33,7 @@
 		FC627502306B213F0064397F = {
 			isa = PBXGroup;
 			children = (
-				FC62750D306B213F0064397F /* UnknownEden */,
+				FC62751C306B21990064397F /* UnknownEden */,
 				FC62750C306B213F0064397F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +44,65 @@
 				FC62750B306B213F0064397F /* UnknownEden.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FC62751C306B21990064397F /* UnknownEden */ = {
+			isa = PBXGroup;
+			children = (
+				FC627525306B21DA0064397F /* Resources */,
+				FC627524306B21D30064397F /* UI */,
+				FC627523306B21CC0064397F /* Systems */,
+				FC627522306B21C60064397F /* Models */,
+				FC627521306B21C10064397F /* Game */,
+				FC627520306B21B80064397F /* App */,
+				FC627519306B21990064397F /* Assets.xcassets */,
+			);
+			path = UnknownEden;
+			sourceTree = "<group>";
+		};
+		FC627520306B21B80064397F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FC62751B306B21990064397F /* UnknownEdenApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FC627521306B21C10064397F /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				FC627526306B22370064397F /* WorldScene.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		FC627522306B21C60064397F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FC627523306B21CC0064397F /* Systems */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Systems;
+			sourceTree = "<group>";
+		};
+		FC627524306B21D30064397F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FC62751A306B21990064397F /* ContentView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FC627525306B21DA0064397F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -55,9 +117,6 @@
 				FC627509306B213F0064397F /* Resources */,
 			);
 			buildRules = (
-			);
-			fileSystemSynchronizedGroups = (
-				FC62750D306B213F0064397F /* UnknownEden */,
 			);
 			name = UnknownEden;
 			productName = UnknownEden;
@@ -102,6 +161,7 @@
 		FC627509306B213F0064397F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				FC62751D306B21990064397F /* Assets.xcassets in Resources */,
 			);
 		};
 /* End PBXResourcesBuildPhase section */
@@ -110,6 +170,9 @@
 		FC627507306B213F0064397F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
+				FC62751E306B21990064397F /* ContentView.swift in Sources */,
+				FC627527306B22370064397F /* WorldScene.swift in Sources */,
+				FC62751F306B21990064397F /* UnknownEdenApp.swift in Sources */,
 			);
 		};
 /* End PBXSourcesBuildPhase section */
